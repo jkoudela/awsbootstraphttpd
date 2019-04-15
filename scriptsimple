@@ -4,4 +4,4 @@ yum install httpd -y
 service httpd start
 chkconfig httpd on
 cd /var/www/html
-echo "<html><h1>EC2 Werbserver $(curl "http://169.254.169.254/latest/meta-data/public-hostname")/h1></html>" > index.html
+echo "<html><h1>EC2 Werbserver $(curl "http://169.254.169.254/latest/meta-data/public-hostname")</h1></html>" > index.html
